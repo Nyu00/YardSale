@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+.login{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height:100vh;
+}
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+    display: none;
+}
+.title{
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+
+}
+.subtitle{
+    text-align: center;
+    color:var(--very-light-pink);
+    font-size:var(--md);
+    font-weight: 300px;
+    margin-top:0px;
+	margin-bottom:32px;
+}
+.email-imge {
+    margin-bottom: 24px;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 132px;
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+}
+.email-imge img{
+    width: 80px;
+
+}
+.primary-buttom{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.login-buttom{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.resend{
+    font-size: var(--sm);
+    font-weight: 300px;
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
