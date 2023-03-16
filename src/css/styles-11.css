@@ -7,22 +7,28 @@
 
 }
 nav{
+    padding: 0 24px;
+    justify-content: space-between;
+    width: 100%;
     display: flex;
+    border-bottom: 1px solid var(--very-light-pink);
 }
 .navbar-left ul,
 .navbar-right ul{
-    
     list-style: none;
     padding:0;
-    margin-top: 24px;
+    margin:0;
     text-decoration: none;
     display: flex;
     align-items: center;
-    
+    height: 60px;
 }
 .navbar-left{
-    margin-left: 24px;
+    margin-left: 12px;
     display: flex;
+}
+.navbar-left ul {
+    margin-left: 12px;
 }
 .navbar-left a,
 .navbar-right a{
@@ -31,11 +37,40 @@ nav{
     border:1px solid var(--white);
     padding:8px;
     border-radius: 12px;
-    transition: 0.5s;
+    transition: 0.3s;
     margin:4px;
 }
 .navbar-left a:hover,
 .navbar-right a:hover{
     color:var(--hospital-green);
     border:1px solid var(--hospital-green);
+}
+.navbar-right li{
+    display: flex;
+}
+.navbar-email{
+    margin-right:12px;
+    color :var(--very-light-pink);
+    font:size(--sm);
+}
+.navbar-shopping-card  {
+    position: relative;
+}
+.navbar-shopping-card div{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--hospital-green);
+    font-size: var(--sm);
+    font-weight: bold;
+    position: absolute;
+    top:-6px;
+    right:-3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    transform: rotate(90deg);
+    margin-right: 12px;
 }

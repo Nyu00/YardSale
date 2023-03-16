@@ -32,6 +32,17 @@
         body{
             font-family: 'Quicksand', sans-serif;
         }
+        @media(max-width:640px){
+            .menu{
+                display: block;
+            }
+            .navbar-left ul{
+                display: none;
+            }
+            .navbar-email{
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -70,7 +81,9 @@
     </div>
     <div class="navbar-right">
         <ul>
-            <li>liamsmith@gmail.com</li>
+            <li class="navbar-email">liamsmith@gmail.com</li>
+            <img src="./src/icons/flechita.svg" alt="" class="arrow">
+
             <li class="navbar-shopping-card">
                 <img src="./src/icons/icon_shopping_cart.svg" alt="shopping cart">
                 <div>2</div>
