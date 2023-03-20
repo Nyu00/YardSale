@@ -27,9 +27,11 @@
             --sm:14px;
             
             --md:16px;
+
             --lg:18px;
         }
         body{
+            margin:0;
             font-family: 'Quicksand', sans-serif;
         }
         @media(max-width:640px){
@@ -39,7 +41,7 @@
             .navbar-left ul{
                 display: none;
             }
-            .navbar-email{
+            .navbar-email li{
                 display: none;
             }
         }
@@ -52,44 +54,44 @@
         <div class="navbar-left">
             <img src="./src/logos/logo_yard_sale.svg" alt="logo" class="logo">
         
-        <ul>
-            <li>
-                <a href="/">All</a>
-            </li>
+            <ul>
+                <li>
+                    <a href="/">All</a>
+                </li>
 
-            <li>
-                <a href="/">Clothes</a>
-            </li>
+                <li>
+                    <a href="/">Clothes</a>
+                </li>
 
-            <li>
-                <a href="/">Electronics</a>
-            </li>
+                <li>
+                    <a href="/">Electronics</a>
+                </li>
 
-            <li>
-                <a href="/">Furniture</a>
-            </li>
+                <li>
+                    <a href="/">Furniture</a>
+                </li>
 
-            <li>
-                <a href="/">Toys</a>
-            </li>
+                <li>
+                    <a href="/">Toys</a>
+                </li>
 
-            <li>
-                <a href="/">Others</a>
-            </li>
-            
-        </ul>
-    </div>
-    <div class="navbar-right">
-        <ul>
-            <li class="navbar-email">liamsmith@gmail.com</li>
-            <img src="./src/icons/flechita.svg" alt="" class="arrow">
-
-            <li class="navbar-shopping-card">
-                <img src="./src/icons/icon_shopping_cart.svg" alt="shopping cart">
-                <div>2</div>
-            </li>
-        </ul>
-    </div>
+                <li>
+                    <a href="/">Others</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">liamsmith@gmail.com</li>
+                
+                <li class="navbar-shopping-card">
+                    <img src="./src/icons/flechita.svg" alt="arrow" class="arrow">
+                    <img src="./src/icons/icon_shopping_cart.svg" alt="shopping cart" class ="cart">
+                    <div>2</div>
+                </li>
+            </ul>
+        </div>
     </nav>
 </body>
 </html>

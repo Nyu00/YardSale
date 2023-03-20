@@ -64,13 +64,19 @@ nav{
     font-size: var(--sm);
     font-weight: bold;
     position: absolute;
-    top:-6px;
-    right:-3px;
     display: flex;
     justify-content: center;
     align-items: center;
+    right:-4px;
+
+    
 }
 .arrow{
+    cursor: pointer;
     transform: rotate(90deg);
     margin-right: 12px;
+}
+.card{
+    margin-right: 12px;
+    display: block;
 }
