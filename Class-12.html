@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./src/css/styles-12.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    
+
+    <title>Document</title>
+    <script>
+        document.getElementById("close").addEventListener("click", function(){
+            close();
+        });
+    </script>
+    <style>
+        :root {
+            --white: #FFFFFF;
+
+            --black: #000000;
+
+            --very-light-pink: #C7C7C7;
+
+            --text-input-field: #F7F7F7;
+
+            --hospital-green:#ACD9B2;
+
+            --sm:14px;
+            
+            --md:16px;
+
+            --lg:18px;
+        }
+        body{
+            margin:0;
+            font-family: 'Quicksand', sans-serif;
+        }
+        @media(max-width:640px){
+        }
+    </style>
+</head>
+<body>
+    <aside class="product-detail">
+        <button alt="close" id="close"><img src="./src/icons/icon_close.png" ></button>
+        <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37" alt="" class="keyboard">
+        <div class="products-info">
+            <h1>3500,00$</h1>
+            <p>Keyboard</p>
+            <p>A tiny keyboard that you can see his pcb, with letters in japanese pretty cute</p>
+            <button class="primary-buttom add-to-cart-button">
+                <img src="./src/icons/bt_add_to_cart.svg" alt="">
+                Pucharse
+            </button>
+        </div>
+    </aside>
+
+</body>
+</html>

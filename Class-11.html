@@ -41,9 +41,14 @@
             .navbar-left ul{
                 display: none;
             }
-            .navbar-email li{
+            .navbar-email {
                 display: none;
             }
+        }
+        @media(max-width:800px){
+           .navbar-email{
+            display: none;
+           } 
         }
     </style>
 </head>
@@ -83,10 +88,11 @@
         </div>
         <div class="navbar-right">
             <ul>
-                <li class="navbar-email">liamsmith@gmail.com</li>
-                
-                <li class="navbar-shopping-card">
+                <li class="navbar-email">liamsmith@gmail.com
                     <img src="./src/icons/flechita.svg" alt="arrow" class="arrow">
+                </li>
+                
+                <li class="navbar-shopping-card">           
                     <img src="./src/icons/icon_shopping_cart.svg" alt="shopping cart" class ="cart">
                     <div>2</div>
                 </li>

@@ -1,0 +1,31 @@
+body{
+
+    margin: 0px;
+}
+.product-detail{
+    width: 360px;
+    padding-bottom:24px ;
+
+}
+.product-detail > img:nth-child(1){
+
+    cursor: pointer;
+
+    
+}
+.primary-buttom{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.add-to-cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
