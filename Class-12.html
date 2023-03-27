@@ -11,11 +11,6 @@
     
 
     <title>Document</title>
-    <script>
-        document.getElementById("close").addEventListener("click", function(){
-            close();
-        });
-    </script>
     <style>
         :root {
             --white: #FFFFFF;
@@ -41,10 +36,14 @@
         @media(max-width:640px){
         }
     </style>
+    
 </head>
 <body>
     <aside class="product-detail">
-        <button alt="close" id="close"><img src="./src/icons/icon_close.png" ></button>
+        <div class="product-detail-close">
+            <img src="./src/icons/icon_close.png">
+        </div>
+        
         <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37" alt="" class="keyboard">
         <div class="products-info">
             <h1>3500,00$</h1>
@@ -56,6 +55,6 @@
             </button>
         </div>
     </aside>
-
+    <script src="script.js"></script>
 </body>
 </html>
