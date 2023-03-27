@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="/YardSale/src/css/styles-3.css">
     <link rel="stylesheet" href="/YardSale/src/css/responsive.css">
@@ -18,34 +19,38 @@
             --black: #000000;
             --very-light-pink: #C7C7C7;
             --text-input-field: #F7F7F7;
-            --hospital-green:#ACD9B2;
-            --sm:14px;
-            --md:16px;
-            --lg:18px;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
         }
 
-        body{
+        body {
             font-family: 'Quicksand', sans-serif;
         }
-        @media (max-width:940px){
-        .logo{
-        display: block;
-        }
-        .form-container{
-            position: relative;
-        }
-        .secondary-buttom{
-            position: absolute;
-            top: calc(100vh - 90%);
-        }
+
+        @media (max-width:940px) {
+            .logo {
+                display: block;
+            }
+
+            .form-container {
+                position: relative;
+            }
+
+            .secondary-buttom {
+                position: absolute;
+                top: calc(100vh - 90%);
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="login">
-        <div class ="form-container">
-            <img src="./src/logos/logo_yard_sale.svg" alt="logo" class ="logo">
-            <form action="/"class="form">
+        <div class="form-container">
+            <img src="./src/logos/logo_yard_sale.svg" alt="logo" class="logo">
+            <form action="/" class="form">
                 <label for="email" class="label">Email address</label>
                 <input type="text" id="email" placeholder="myemail@gmail.com" class="input input-email">
 
@@ -54,16 +59,17 @@
 
                 <input type="submit" value="Log in" class="primary-buttom login-buttom">
 
-                <a href="/">Forgot my password</a> 
+                <a href="/">Forgot my password</a>
 
-                
+
             </form>
 
             <button class="secondary-buttom signup-buttom">Sign up</button>
-            
-            
-            
+
+
+
         </div>
     </div>
 </body>
+
 </html>
