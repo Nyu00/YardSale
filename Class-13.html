@@ -37,7 +37,7 @@
         }
 
         @media(max-width:640px) {
-            .product-detail{
+            .product-detail {
                 width: 100%;
             }
         }
@@ -47,23 +47,55 @@
 
 <body>
     <aside class="product-detail">
-        <div class="product-detail-close">
-            <img src="./src/icons/icon_close.png">
+        <div class="title-container">
+            <img src="./src/icons/flechita.svg" alt="arrow" class="arrow">
+            <p class="title">My order</p>
         </div>
 
-        <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37"
-            alt="" class="keyboard">
-        <div class="products-info">
-            <h1>3500,00$</h1>
-            <p>Keyboard</p>
-            <p>A tiny keyboard that you can see his pcb, with letters in japanese pretty cute</p>
-            <button class="primary-buttom add-to-cart-button">
-                <img src="./src/icons/bt_add_to_cart.svg" alt="">
-                Pucharse
+        <div class="my-order-content">
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37"
+                        alt="keyboard">
+                </figure>
+                <p>Keyboard</p>
+                <p>$30,00</p>
+                <img src="./src/icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37"
+                        alt="keyboard">
+                </figure>
+                <p>Keyboard</p>
+                <p>$30,00</p>
+                <img src="./src/icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://external-preview.redd.it/O4TXNKUnBEXDuKwzUVJkWXOzDbEk2fRyzIlJPAv57ok.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b1a6a30d9438aa3bb79089fef7a43518302b5c37"
+                        alt="keyboard">
+                </figure>
+                <p>Keyboard</p>
+                <p>$30,00</p>
+                <img src="./src/icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="order">
+                <p>
+                    <span>Total</span>
+                </p>
+                <p>$90.00</p>
+            </div>
+
+            <button class="primary-button">
+                Checkout
             </button>
         </div>
+        </div>
     </aside>
-    <script src="script.js"></script>
 </body>
 
 </html>
